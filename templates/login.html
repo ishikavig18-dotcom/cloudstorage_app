@@ -1,36 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Login</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud File Storage</title>
 
     <style>
 
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI',sans-serif;
+        }
+
         body{
-            font-family:Arial;
+            min-height:100vh;
             display:flex;
             justify-content:center;
             align-items:center;
-            height:100vh;
-            background:linear-gradient(
+            background:
+            linear-gradient(
                 135deg,
-                #667eea,
-                #764ba2
+                #0f172a,
+                #1e293b,
+                #312e81
             );
+            overflow:hidden;
         }
 
         .card{
-            background:white;
-            padding:40px;
-            border-radius:20px;
+
+            width:420px;
+            padding:50px 40px;
+
+            background:rgba(255,255,255,0.08);
+
+            backdrop-filter:blur(18px);
+
+            border:1px solid rgba(
+                255,
+                255,
+                255,
+                0.15
+            );
+
+            border-radius:28px;
+
             text-align:center;
+
+            box-shadow:
+            0 20px 50px rgba(
+                0,
+                0,
+                0,
+                0.35
+            );
+
         }
 
-        a{
-            text-decoration:none;
-            background:#4285F4;
+        .cloud-icon{
+            font-size:60px;
+            margin-bottom:15px;
+        }
+
+        h1{
             color:white;
-            padding:15px 25px;
-            border-radius:10px;
+            margin-bottom:12px;
+            font-size:32px;
+        }
+
+        .subtitle{
+            color:#cbd5e1;
+            margin-bottom:35px;
+            line-height:1.6;
+        }
+
+        .google-btn{
+
+            display:inline-block;
+
+            text-decoration:none;
+
+            color:white;
+
+            background:
+            linear-gradient(
+                135deg,
+                #4285F4,
+                #2563eb
+            );
+
+            padding:15px 30px;
+
+            border-radius:14px;
+
+            font-size:16px;
+
+            font-weight:600;
+
+            transition:0.3s ease;
+
+            box-shadow:
+            0 10px 25px rgba(
+                66,
+                133,
+                244,
+                0.35
+            );
+
+        }
+
+        .google-btn:hover{
+
+            transform:
+            translateY(-3px);
+
+            box-shadow:
+            0 15px 30px rgba(
+                66,
+                133,
+                244,
+                0.45
+            );
+
+        }
+
+        .features{
+
+            margin-top:35px;
+
+            text-align:left;
+
+            color:#e2e8f0;
+
+            font-size:14px;
+
+            line-height:2;
+
+        }
+
+        .footer{
+
+            margin-top:30px;
+
+            color:#94a3b8;
+
+            font-size:13px;
+
         }
 
     </style>
@@ -39,17 +160,47 @@
 
 <body>
 
-<div class="card">
+    <div class="card">
 
-    <h1>Cloud File Storage</h1>
+        <div class="cloud-icon">
+            ☁️
+        </div>
 
-    <br>
+        <h1>
+            Cloud File Storage
+        </h1>
 
-    <a href="/login">
-        Login with Google
-    </a>
+        <p class="subtitle">
+            Securely upload, manage, share and
+            access your files anywhere using
+            cloud storage powered by AWS S3.
+        </p>
 
-</div>
+        <a href="/login"
+           class="google-btn">
+
+            Continue with Google
+
+        </a>
+
+        <div class="features">
+
+            ✓ Secure Authentication<br>
+
+            ✓ AWS S3 Cloud Storage<br>
+
+            ✓ File Sharing & Downloads<br>
+
+            ✓ Version Control Support
+
+        </div>
+
+        <div class="footer">
+            Developed by Ishika Vig
+        </div>
+
+    </div>
 
 </body>
+
 </html>
