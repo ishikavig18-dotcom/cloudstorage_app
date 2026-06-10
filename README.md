@@ -265,21 +265,22 @@ http://127.0.0.1:5000
 
 ## Login Page
 
-<img width="1337" height="767" alt="image" src="https://github.com/user-attachments/assets/35a15423-ae57-4b39-8fea-a5a405b834db" />
+<img width="1907" height="1028" alt="image" src="https://github.com/user-attachments/assets/9b02c589-65cc-4d4c-85ee-a0053ae2ff99" />
 
 
 ---
 
 ## Dashboard
 
-<img width="1091" height="827" alt="image" src="https://github.com/user-attachments/assets/d74c6f74-d696-45bf-9025-7aa88de5dad9" />
+<img width="1907" height="1022" alt="image" src="https://github.com/user-attachments/assets/1b711fe2-44a5-41d8-9428-b035dd679861" />
+
 
 
 ---
 
 ## Upload File
 
-<img width="975" height="810" alt="image" src="https://github.com/user-attachments/assets/f21cbf4c-c1dc-4ea6-a78d-05191a512453" />
+<img width="1907" height="1026" alt="image" src="https://github.com/user-attachments/assets/4670fa4e-7a16-40f4-afdf-846200b597ae" />
 
 
 
@@ -288,13 +289,14 @@ http://127.0.0.1:5000
 
 # Link Generated
 
-<img width="717" height="205" alt="image" src="https://github.com/user-attachments/assets/7aa8a4de-facc-47f7-80c5-8b1965802035" />
+<img width="1582" height="462" alt="image" src="https://github.com/user-attachments/assets/96ade0c6-bea3-4f94-be70-72e33fba7b77" />
+
 
 
 # Learning Outcomes
 
 Through this project, the following concepts were explored:
-
++++++++
 * Cloud Computing Fundamentals
 * AWS S3 Integration
 * IAM Access Management
