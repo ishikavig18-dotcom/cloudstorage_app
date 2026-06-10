@@ -4,6 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
@@ -19,10 +20,13 @@
         }
 
         body{
+
             min-height:100vh;
+
             display:flex;
             justify-content:center;
             align-items:center;
+
             background:
             linear-gradient(
                 135deg,
@@ -30,63 +34,76 @@
                 #1e293b,
                 #312e81
             );
-            overflow:hidden;
+
+            padding:20px;
+
         }
 
         .card{
 
             width:420px;
+
+            background:
+            rgba(255,255,255,0.08);
+
+            backdrop-filter:blur(20px);
+
+            border:1px solid
+            rgba(255,255,255,0.15);
+
+            border-radius:25px;
+
             padding:50px 40px;
-
-            background:rgba(255,255,255,0.08);
-
-            backdrop-filter:blur(18px);
-
-            border:1px solid rgba(
-                255,
-                255,
-                255,
-                0.15
-            );
-
-            border-radius:28px;
 
             text-align:center;
 
             box-shadow:
-            0 20px 50px rgba(
-                0,
-                0,
-                0,
-                0.35
-            );
+            0 25px 50px
+            rgba(0,0,0,0.3);
 
         }
 
-        .cloud-icon{
-            font-size:60px;
+        .logo{
+
+            font-size:70px;
+
             margin-bottom:15px;
+
         }
 
         h1{
+
             color:white;
-            margin-bottom:12px;
-            font-size:32px;
+
+            margin-bottom:15px;
+
+            font-size:34px;
+
         }
 
         .subtitle{
+
             color:#cbd5e1;
+
             margin-bottom:35px;
+
             line-height:1.6;
+
         }
 
-        .google-btn{
+        .login-btn{
 
             display:inline-block;
 
             text-decoration:none;
 
             color:white;
+
+            padding:15px 30px;
+
+            border-radius:14px;
+
+            font-weight:600;
 
             background:
             linear-gradient(
@@ -95,38 +112,22 @@
                 #2563eb
             );
 
-            padding:15px 30px;
-
-            border-radius:14px;
-
-            font-size:16px;
-
-            font-weight:600;
-
-            transition:0.3s ease;
+            transition:.3s;
 
             box-shadow:
-            0 10px 25px rgba(
-                66,
-                133,
-                244,
-                0.35
-            );
+            0 10px 25px
+            rgba(66,133,244,0.35);
 
         }
 
-        .google-btn:hover{
+        .login-btn:hover{
 
             transform:
             translateY(-3px);
 
             box-shadow:
-            0 15px 30px rgba(
-                66,
-                133,
-                244,
-                0.45
-            );
+            0 15px 30px
+            rgba(66,133,244,0.45);
 
         }
 
@@ -138,9 +139,9 @@
 
             color:#e2e8f0;
 
-            font-size:14px;
-
             line-height:2;
+
+            font-size:14px;
 
         }
 
@@ -154,6 +155,19 @@
 
         }
 
+        @media(max-width:500px){
+
+            .card{
+                width:100%;
+                padding:40px 25px;
+            }
+
+            h1{
+                font-size:28px;
+            }
+
+        }
+
     </style>
 
 </head>
@@ -162,7 +176,7 @@
 
     <div class="card">
 
-        <div class="cloud-icon">
+        <div class="logo">
             ☁️
         </div>
 
@@ -171,13 +185,15 @@
         </h1>
 
         <p class="subtitle">
-            Securely upload, manage, share and
-            access your files anywhere using
-            cloud storage powered by AWS S3.
+
+            Securely upload, manage, share,
+            download and organize your files
+            using AWS S3 cloud storage.
+
         </p>
 
         <a href="/login"
-           class="google-btn">
+           class="login-btn">
 
             Continue with Google
 
@@ -185,18 +201,22 @@
 
         <div class="features">
 
-            ✓ Secure Authentication<br>
+            ✓ Secure Google Authentication<br>
 
             ✓ AWS S3 Cloud Storage<br>
 
-            ✓ File Sharing & Downloads<br>
+            ✓ Fast File Uploads<br>
 
-            ✓ Version Control Support
+            ✓ Download & Share Files<br>
+
+            ✓ Bucket Versioning Support
 
         </div>
 
         <div class="footer">
+
             Developed by Ishika Vig
+
         </div>
 
     </div>
